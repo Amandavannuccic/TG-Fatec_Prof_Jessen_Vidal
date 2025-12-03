@@ -1,5 +1,7 @@
 <h3> Em 2023-2 </h3>
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2355cda3-8457-42c8-aed6-1db5eced73d2" />
+
 <h3> Desafio Proposto pelo Cliente </h3>
 
 Neste desafio, o cliente foi o [Professor Mineda](https://fatecsjc-prd.azurewebsites.net/docentes-bd), que nos apresentou a necessidade de modernizar o processo de avaliação dos Trabalhos de Conclusão de Curso (TCC) dos alunos do 5º e 6º período do curso de Análise e Desenvolvimento de Sistemas da Fatec. O método utilizado até então era manual, o que gerava diversas limitações, como a suscetibilidade a erros, a dificuldade na consolidação dos dados de avaliação, a ausência de relatórios padronizados, o tempo elevado para análise das informações e a falta de integração entre etapas, notas e feedbacks.
