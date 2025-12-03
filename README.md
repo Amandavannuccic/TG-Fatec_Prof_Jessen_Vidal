@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d5a62628-186e-4c64-837c-ea3bdf7af75e" 
-       alt="Foto de perfil" width="100" height="100" style="border-radius:50%;" />
+  <img src="https://github.com/user-attachments/assets/d5a62628-186e-4c64-837c-ea3bdf7af75e" alt="Foto de perfil" width="100" height="100" style="border-radius:50%;" />
 </p>
+
 <h1 align="center">Amanda Vannucci</h1>
 
 <h10>
@@ -39,3 +39,28 @@ Ao longo da graduação, pude adquirir experiências valiosas que complementaram
 Na [Fatec São José dos Campos – Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/), os projetos desenvolvidos dentro da metodologia de Aprendizagem por Projetos Integrados ([API](https://fatecsjc-prd.azurewebsites.net/aprendizagem-por-projetos-integrados)) seguem uma abordagem prática baseada em problemas reais ([Real Problem Based Learning](https://www.scielo.br/j/edur/a/hY5pBZkfjL9XvGfHn5PPyFz/)), com validação externa e uso de metodologias ágeis ([SCRUM](https://www.scrum.org/learning-series/what-is-scrum/)). Os estudantes trabalham em equipes para solucionar desafios concretos propostos por empresas ou pela comunidade, aplicando ciclos iterativos de planejamento, desenvolvimento e feedback, com entregas parciais e adaptações constantes. Durante todo o processo, os [professores](https://fatecsjc-prd.azurewebsites.net/docentes-bd) atuam como facilitadores, intermediando e monitorando as ações dos alunos, oferecendo orientação técnica e metodológica. Os projetos são validados por profissionais externos, garantindo alinhamento com as demandas do mercado, e todo o conteúdo gerado segue licenças open source, com foco exclusivo na formação acadêmica dos alunos, sem fins lucrativos ou garantias comerciais.
 
 ---
+
+### 2023/1 
+- 🔗 Portfólio: [1º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2023.01/Avaliacao360.md)
+- 🔗 Repositório: [Insight360](https://github.com/TechHorizonBR/Insight360/tree/dev)
+
+### 2023/2 
+- 🔗 Portfólio: [2º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2023.02/TGsync.md)
+- 🔗 Repositório:[TGSync](https://github.com/TechHorizonBR/API_2_Sem)
+
+### 2024/1
+- 🔗 Portfólio: [3º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2024.01/NextSchema.md)
+- 🔗 Repositório:[NextSchema](https://github.com/TechHorizonBR/API_3SEM)
+
+### 2024/2
+- 🔗 Portfólio: [4º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2024.02/LocalTrack.md)
+- 🔗 Repositório: [LocalTracker](https://github.com/TechHorizonBR/API_4SEM)
+
+### 2025/1
+- 🔗 Portfólio: [5º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2025.01/Vision.md)
+- 🔗 Repositório: [Vision](https://github.com/new-ge/VISION)
+
+### 2025/2
+- 🔗 Portfólio: [6º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2025.02/LuminIA.md)
+- 🔗 Repositório:[LuminIA](https://github.com/new-ge/LuminIA)
+
