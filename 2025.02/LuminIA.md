@@ -115,12 +115,6 @@ Integração e scripts em `ml/` para inferência de FAQ (uso de embeddings), scr
 - **Organização e Planejamento** — Priorização de entregas, definição de responsabilidades por módulo e manutenção do repositório.
 - **Resolução de Problemas** — Depuração de integrações entre banco, API e módulos de ML.
 
----
 
-Deseja que eu:
-
-- gere uma versão resumida deste texto para inclusão no seu CV?
-- adicione prints reais ao `README.md` (você pode enviar imagens ou indicar caminhos)?
-- ou crie uma seção "Como executar" com exemplos de comandos para rodar localmente?
 
 
