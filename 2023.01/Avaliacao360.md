@@ -38,109 +38,347 @@ Para resolver as limitações do processo manual de avaliação, o grupo [Tech H
 | Programa de Planilhas               | Excel                         | Usado para análise e organização de dados em formato tabular.               |
 | Método de Gerenciamento de Projetos | Kanban                        | Metodologia ágil usada para acompanhar o progresso e distribuição das tarefas. |
 
+# Contribuições Pessoais – Projeto Insight360º
 
-<h3>Contribuições Pessoais</h3>
+No projeto Insight360º, atuei simultaneamente como Product Owner (PO) e Desenvolvedora, conciliando a mediação entre o cliente (Professor Lucas Nadalete) e a equipe técnica com a implementação direta de funcionalidades essenciais do sistema.
 
-No projeto Avaliação 360, atuei como Product Owner (PO), sendo responsável por realizar a mediação entre o cliente (Professor Lucas Nadalete) e a equipe de desenvolvimento. Minha principal função foi compreender as necessidades do cliente, transformar essas demandas em requisitos claros e viáveis, e garantir que as entregas estivessem alinhadas com os objetivos definidos.
+Como PO, fui responsável por compreender as necessidades do cliente, transformar essas demandas em requisitos claros e priorizados, organizar o backlog e assegurar que as entregas estivessem alinhadas aos objetivos definidos. Além disso, contribuí no desenvolvimento do software, criando interfaces gráficas, dashboards analíticos, telas administrativas e documentações técnicas.
 
-Além disso, colaborei ativamente no desenvolvimento do sistema, auxiliando na implementação de funcionalidades, revisão de código e testes de qualidade garantindo o funcionamento. Também participei da organização das tarefas utilizando a metodologia SCRUM, contribuí para a documentação e apoiei a equipe na tomada de decisões técnicas e de usabilidade ao longo do projeto.
-
- - Mediação com o Cliente (PO)
-
+### Mediação com o Cliente (PO)
 <details>
+<summary>Detalhes</summary>
+
+- Tradução das necessidades do professor em requisitos objetivos.  
+- Acompanhamento constante das expectativas ao longo das sprints.  
+- Priorização do backlog e repasse alinhado das demandas à equipe.  
+- Apresentação de entregáveis, protótipos e coleta de feedback.  
+
+</details>
+
+### Definição de Requisitos e Funcionalidades
+<details>
+<summary>Detalhes</summary>
+
+- Estruturação do backlog e definição das funcionalidades de cada sprint.  
+- Detalhamento de regras de negócio para dashboards e tela administrativa.  
+- Documentação da Sprint 4 com objetivos, instruções e backlog consolidado.  
+- Definição dos indicadores avaliados e fluxos do usuário no sistema.  
+
+</details>
+
+### Desenvolvimento e Implementação
+<details>
+<summary>Detalhes</summary>
+
+### Dashboard Gerencial – Análise Comparativa
+
+<details> <summary>Código – Processamento e Estrutura do Dashboard</summary>
+
+    def telaDashAnalise():
+        global idturma, idtime, sprint
+        comp_frame = ctk.CTkFrame(master=janelaDashGerencial, width=800, height=650)
+        comp_frame.place(x=200, y=50)
+    
+    with open("data_json/questions.json", "r") as arquivo:
+        dados_json = json.load(arquivo)
+    
+    # PROCESSAMENTO DE MÉDIAS - TURMA
+    resposta1 = resposta2 = resposta3 = resposta4 = resposta5 = 0
+    controler = 0
+    
+    for i in dados_json['avaliacao']:
+        if i['idturma'] == idturma:
+            for x in i['respostas']:
+                controler += 1
+                resposta1 += x['resposta1']
+                resposta2 += x['resposta2']
+                resposta3 += x['resposta3']
+                resposta4 += x['resposta4']
+                resposta5 += x['resposta5']
+    
+        # PROCESSAMENTO DE MÉDIAS - TIME
+        resposta1Time = resposta2Time = resposta3Time = resposta4Time = resposta5Time = 0
+        controlerTime = 0
+        
+        for i in dados_json['avaliacao']:
+            if i['idturma'] == idturma:
+                if i['idtime']==idtime:
+                    if i['sprint'] == sprintSelecionada:
+                        for x in i['respostas']:
+                            controlerTime += 1
+                            resposta1Time += x['resposta1']
+                            resposta2Time += x['resposta2']
+                            resposta3Time += x['resposta3']
+                            resposta4Time += x['resposta4']
+                            resposta5Time += x['resposta5']
+</details> 
+
+<details> <summary>Código – Gráfico Comparativo</summary>
   
-Atuação como Product Owner, fazendo a ponte entre o cliente (Professor Lucas Nadalete) e a equipe.
-
-Coleta e tradução de necessidades em requisitos funcionais e técnicos.
-
-Garantia de que as entregas estivessem alinhadas com os objetivos do cliente.
-📸 Sugestão de print: Documento de requisitos, e-mail, ou fluxograma de comunicação entre cliente e equipe.
+      # CRIAÇÃO DO GRÁFICO COMPARATIVO
+      figura = Figure(figsize=(8,6), dpi=100)
+      eixo = figura.add_subplot(111)
+      
+      eixo.plot(indicadores, valores_time, color="#00FFFF", label="Time", marker='o')
+      eixo.plot(indicadores, valores_turma, color="#c8c8c8", label="Turma", marker='s')
+      
+      eixo.set_title("Análise comparativa entre a turma e o time", color="white")
+      eixo.set_facecolor("#404040")
+      figura.set_facecolor("#323232")
+      
+      eixo.scatter(range(len(valores_time)), valores_time, color='#00FFFF')
+      eixo.scatter(range(len(valores_turma)), valores_turma, color='#c8c8c8')
+      
+      for i, valor in enumerate(valores_time):
+          eixo.text(i, valor, f'{valor:.2f}', color='#00FFFF', ha='center', va='bottom')
+      
+      for i, valor in enumerate(valores_turma):
+          eixo.text(i, valor, f'{valor:.2f}', color='#c8c8c8', ha='center', va='bottom')
+      
+      eixo.axhline(y=1, color='gray', linestyle='--')
+      eixo.axhline(y=2, color='gray', linestyle='--')
+      eixo.axhline(y=3, color='gray', linestyle='--')
+      eixo.axhline(y=4, color='gray', linestyle='--')
+      eixo.axhline(y=5, color='gray', linestyle='--')
+      
+      canvas = FigureCanvasTkAgg(figura, master=comp_frame)
+      canvas.draw()
+      canvas.get_tk_widget().place(x=100, y=80)
 
 </details>
 
-- Definição de Requisitos e Funcionalidades
+### Tela de Aceite de Usuários
 
+<details> <summary>Código – Exibição de Usuários Não Aceitos</summary>
+
+        frame_2 = ctk.CTkScrollableFrame(master=frame, fg_color='#c0c0c0', width=1000, height=200)
+        frame_2.place(x=100, y=40)
+        
+        acesso = json.load(open("data_json/users.json", "r"))
+        ac_turmas = json.load(open("data_json/turmas.json", "r"))
+        
+        user = acesso["usuarios"]
+        tur = ac_turmas["turmas"]
+        
+        for x in range(len(user)):
+            for y in range(len(tur)):
+                if(user[x]["idturma"] == tur[y]["idturma"]):
+                    turma_certa = tur[y]["nometurma"]
+            
+            if user[x]["aceito"] == False:
+                label_usuario = ctk.CTkLabel(master=frame_2, 
+                                            text=f"{user[x]['user']} - {turma_certa}", 
+                                            text_color="black", 
+                                            font=('Roboto', 12))
+                label_usuario.pack(pady=5)
+
+</details> 
+
+<details><summary>Código – Janela de Alerta Personalizada</summary>
+
+        def janela_alert(titulo, mensagem, medida):
+            janelaAlerta = ctk.CTk()
+            janelaAlerta.title(titulo)
+            janelaAlerta.resizable(False, False)
+        
+            larg_tela = janela.winfo_screenwidth()
+            alt_tela = janela.winfo_screenheight()
+            x = (larg_tela - medida) // 2
+            y = (alt_tela - 100) // 2
+        
+            janelaAlerta.geometry(f"{medida}x100+{x}+{y}")
+        
+            ctk.CTkLabel(
+                master=janelaAlerta, 
+                text=mensagem, 
+                font=('Roboto', 15, 'bold')
+            ).pack()
+        
+            def destroy_alerta():
+                janelaAlerta.destroy()
+        
+            ctk.CTkButton(
+                janelaAlerta, text="Ok", command=destroy_alerta,
+                fg_color='#5CE1E6', text_color='black'
+            ).pack()
+        
+            janelaAlerta.mainloop()
+
+</details>
+
+### Gráfico de Pizza – Atualização
+
+<details> <summary>Código – Pizza Chart</summary>
+
+        figura_pizza = Figure(figsize=(6, 6), dpi=100)
+        eixo_pizza = figura_pizza.add_subplot(111)
+        
+        indicadores = list(dados.keys())
+        valores = list(dados.values())
+        
+        cores = ['#00FFFF', '#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A']
+        eixo_pizza.pie(valores, labels=indicadores, colors=cores, autopct='%1.1f%%')
+        
+        canvas_pizza = FigureCanvasTkAgg(figura_pizza, master=frame_principal)
+        canvas_pizza.draw()
+        canvas_pizza.get_tk_widget().place(x=500, y=100)
+
+</details>
+
+### Ajustes de Layout e Dimensões
+
+<details> <summary>Código – Centralização</summary>
+
+        screen_width = janelaDashGerencial.winfo_screenwidth()
+        screen_height = janelaDashGerencial.winfo_screenheight()
+        x = (screen_width - 1200) // 2
+        y = (screen_height - 650) // 2
+        janelaDashGerencial.geometry("1200x650+{}+{}".format(x, y))
+
+</details>  
+
+</details>
+
+# Hard Skills Desenvolvidas
+
+### Manipulação de Dados (JSON)
 <details>
+<summary>Detalhes</summary>
 
-Transformação de demandas em histórias de usuário e funcionalidades práticas.
-
-Priorização e acompanhamento das entregas com foco no valor para o usuário final.
-📸 Sugestão de print: Quadro Kanban no Notion/Trello com as tarefas e suas etapas, ou tabela de requisitos.
+- Leitura, escrita e filtragem de dados de usuários, turmas e avaliações.  
+- Processamento de respostas, médias e agrupamentos por time e sprint.  
 
 </details>
 
-- Desenvolvimento e Implementação
-
+### Criação de Interfaces Gráficas (CustomTkinter + Tkinter)
 <details>
-  
-Colaboração direta no desenvolvimento da aplicação em Python.
+<summary>Detalhes</summary>
 
-Apoio na criação da interface com Tkinter e integração com JSON e Matplotlib.
-📸 Sugestão de print: Telas da interface (GUI), trechos de código desenvolvidos por você, ou funcionalidades implementadas.
+- Construção de janelas completas e responsivas.  
+- Utilização de frames, áreas scrolláveis e navegação lateral.  
+- Padronização da interface com tema escuro e organização dos elementos.  
 
 </details>
 
+### Visualização de Dados com Matplotlib
+<details>
+<summary>Detalhes</summary>
 
-<h3> Hard Skills Desenvolvidas </h3>
+- Criação de gráficos comparativos com múltiplas séries.  
+- Implementação de gráfico de pizza, scatter e linhas de referência.  
+- Integração com Tkinter utilizando FigureCanvasTkAgg.  
 
-- **Programação em Java 17**  
-   Desenvolvimento de scripts e aplicações com uso de estruturas de controle, funções, bibliotecas e boas práticas de programação.
-  - Horas de prática: ~300h  
-  - Nível: Avançado  
-  - Exemplo real: Desenvolvimento de um sistema de gestão acadêmica com cadastro e relatórios.
+</details>
 
-- **Manipulação de Dados (JSON)**  
-  Leitura, escrita e estruturação de dados em formato JSON, com foco na troca de informações entre componentes do sistema.
+### Programação em Python 3
+<details>
+<summary>Detalhes</summary>
 
-- **Criação de Interfaces Gráficas (Tkinter)**  
-  Construção de interfaces desktop com uso de botões, caixas de texto, menus e organização de layout com a biblioteca Tkinter.
+- Estruturação de funções, módulos, controle de fluxo e manipulação de arquivos.  
+- Implementação de cálculos de médias, filtragens e validações.  
+- Desenvolvimento completo de funcionalidades integradas à GUI.  
 
-- **Visualização de Dados com Matplotlib**  
-  Geração de gráficos para representar visualmente informações e resultados, facilitando a interpretação de dados dentro do sistema.
+</details>
 
-- **Controle de Versão com Git**  
-  Utilização de Git para versionar código, criar branches, resolver conflitos, acompanhar histórico e colaborar em equipe.
+### Controle de Versão com Git
+<details>
+<summary>Detalhes</summary>
 
-- **Gerenciamento de Código com GitHub**  
-  Hospedagem do repositório, uso de pull requests, issues e versionamento remoto para colaboração e publicação de código.
+- Versionamento das atualizações do projeto.  
+- Criação de commits descritivos e organizados.  
+- Manutenção de histórico limpo e estruturado.  
 
-- **Elaboração de Diagramas Técnicos (Diagrams.net)**  
-  Criação de fluxogramas, diagramas de arquitetura e representação visual de processos e sistemas.
+</details>
 
-- **Produtividade com Notion**  
-  Organização de tarefas, registro de ideias, cronogramas e documentação geral do projeto em ambiente colaborativo.
+### Gerenciamento de Repositório com GitHub
+<details>
+<summary>Detalhes</summary>
 
-- **Gestão Ágil com Kanban**  
-  Planejamento e acompanhamento das tarefas utilizando quadros Kanban, com priorização e divisão de entregas por etapas.
+- Organização do repositório remoto com versionamento contínuo.  
+- Publicação de atualizações, documentação e arquivos do projeto.  
 
-- **Documentação Técnica**  
-  Produção de arquivos README, manuais de uso, documentação de código e relatórios explicativos para consulta e apresentação.
+</details>
 
+### Documentação Técnica
+<details>
+<summary>Detalhes</summary>
 
-<h3>Soft Skills Desenvolvidas </h3>
+- Produção do README da Sprint 4 com instruções completas.  
+- Organização das informações do projeto e detalhamento técnico.  
 
-- **Trabalho em Equipe**  
-  Colaboração entre membros do grupo, divisão equilibrada de responsabilidades e apoio mútuo na resolução de tarefas.
+</details>
 
-- **Comunicação Efetiva**  
-  Troca clara de informações por canais como Discord, além de participação ativa em reuniões e apresentações.
+# Soft Skills Desenvolvidas
 
-- **Organização e Planejamento**  
-  Gerenciamento de prazos, definição de prioridades e uso de ferramentas digitais para manter o progresso do projeto sob controle.
+### Trabalho em Equipe
+<details>
+<summary>Detalhes</summary>
 
-- **Autonomia**  
-  Capacidade de executar tarefas, resolver problemas e tomar decisões técnicas com independência e responsabilidade.
+- Colaboração contínua entre os membros.  
+- Comunicação eficiente sobre responsabilidades e progresso.  
 
-- **Flexibilidade**  
-  Adaptação a mudanças nos requisitos, realinhamento de escopo e resposta eficiente a imprevistos durante o projeto.
+</details>
 
-- **Pensamento Crítico**  
-  Avaliação de ideias, identificação de falhas em propostas e busca por soluções mais eficazes com base em análise lógica.
+### Comunicação Efetiva
+<details>
+<summary>Detalhes</summary>
 
-- **Resolução de Problemas**  
-  Abordagem prática e estruturada para superar desafios técnicos ou de equipe ao longo do desenvolvimento.
+- Troca de informações via Discord e reuniões periódicas.  
+- Apresentações regulares do andamento ao cliente.  
 
-- **Gestão do Tempo**  
-  Distribuição eficiente de tarefas, cumprimento de prazos e otimização do tempo disponível para cada etapa do projeto.
+</details>
 
---- 
+### Organização e Planejamento
+<details>
+<summary>Detalhes</summary>
+
+- Uso de backlog e definição clara de prioridades.  
+- Gerenciamento de prazos durante as sprints.  
+
+</details>
+
+### Autonomia
+<details>
+<summary>Detalhes</summary>
+
+- Desenvolvimento completo de telas e dashboards de forma independente.  
+- Tomada de decisões técnicas em momentos críticos.  
+
+</details>
+
+### Flexibilidade
+<details>
+<summary>Detalhes</summary>
+
+- Adaptação rápida a mudanças no escopo e novos requisitos.  
+- Ajustes constantes baseados no feedback do cliente.  
+
+</details>
+
+### Pensamento Crítico
+<details>
+<summary>Detalhes</summary>
+
+- Avaliação de soluções e refinamento contínuo da usabilidade.  
+- Identificação de falhas e melhoria de processos.  
+
+</details>
+
+### Resolução de Problemas
+<details>
+<summary>Detalhes</summary>
+
+- Solução de inconsistências de cálculo e ajustes de layout.  
+- Tratamento de erros em dados JSON e lógica de exibição.  
+
+</details>
+
+### Gestão do Tempo
+<details>
+<summary>Detalhes</summary>
+
+- Organização das tarefas por sprint.  
+- Cumprimento dos prazos e priorização eficaz.  
+
+</details>
+
