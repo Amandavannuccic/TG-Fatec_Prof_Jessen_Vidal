@@ -3,21 +3,22 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a26af9a3-6150-462b-83d8-e30eff33e168" />
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f6071e8f-8c01-4ef6-8fa3-b8bb9852b76a" width="500">
-  <img src="https://github.com/user-attachments/assets/f25f871d-b9b5-45fc-af7c-c38b58b3a621" width="500">
-</p>
-
-
-  
-<b> Desafio Proposto pelo Cliente </b> 
+# Desafio Proposto pelo Cliente 
   
 Neste desafio, o cliente foi o [Professor Lucas Nadalete](https://fatecsjc-prd.azurewebsites.net/docentes-bd), que nos apresentou a necessidade de substituir o processo manual de avaliação de desempenho. Esse processo enfrentava diversas limitações, como a dificuldade na consolidação dos dados em planilhas desconectadas, a ausência de padronização nos critérios de avaliação, a lentidão decorrente da burocracia envolvida e a pouca clareza na visualização dos resultados.
 
 
-<b>Ferramenta Desenvolvida</b> 
+# Ferramenta Desenvolvida
 
 Para resolver as limitações do processo manual de avaliação, o grupo [Tech Horizon](https://github.com/TechHorizonBR) desenvolveu o [Avaliação 360º](https://github.com/Amandavannuccic/API_1_SEMESTRE), um sistema desktop em Python com uma interface amigável e intuitiva construída com Tkinter. A ferramenta permite a visualização gráfica dos resultados por meio do Matplotlib e realiza o armazenamento local dos dados no formato JSON. Além disso, oferece suporte a múltiplos perfis de usuário, distinguindo avaliadores e avaliados, gera relatórios automáticos de desempenho e conta com um sistema básico de autenticação para controle de acesso.
+
+<details>
+<summary>Visual</summary>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f6071e8f-8c01-4ef6-8fa3-b8bb9852b76a" width="500">
+  <img src="https://github.com/user-attachments/assets/f25f871d-b9b5-45fc-af7c-c38b58b3a621" width="500">
+</p>
+</details>
 
 
 <h3>Tecnologias Utilizadas</h3>
@@ -241,144 +242,177 @@ Como PO, fui responsável por compreender as necessidades do cliente, transforma
 
 # Hard Skills Desenvolvidas
 
-### Manipulação de Dados (JSON)
-<details>
-<summary>Detalhes</summary>
+### Manipulação de Dados (JSON) — Intermediário
+<details> <summary>Detalhes</summary>
 
-- Leitura, escrita e filtragem de dados de usuários, turmas e avaliações.  
-- Processamento de respostas, médias e agrupamentos por time e sprint.  
+- Leitura, escrita e filtragem de dados de usuários, turmas e avaliações.
 
-</details>
+- Processamento de respostas, médias e agrupamentos por time e sprint.
 
-### Criação de Interfaces Gráficas (CustomTkinter + Tkinter)
-<details>
-<summary>Detalhes</summary>
-
-- Construção de janelas completas e responsivas.  
-- Utilização de frames, áreas scrolláveis e navegação lateral.  
-- Padronização da interface com tema escuro e organização dos elementos.  
+- Motivo do nível: consigo manipular dados com autonomia, resolver problemas comuns e estruturar fluxos completos.
 
 </details>
 
-### Visualização de Dados com Matplotlib
-<details>
-<summary>Detalhes</summary>
+### Criação de Interfaces Gráficas (CustomTkinter + Tkinter) — Intermediário
+<details> <summary>Detalhes</summary>
 
-- Criação de gráficos comparativos com múltiplas séries.  
-- Implementação de gráfico de pizza, scatter e linhas de referência.  
-- Integração com Tkinter utilizando FigureCanvasTkAgg.  
+- Construção de janelas completas e responsivas.
 
-</details>
+- Utilização de frames, áreas scrolláveis e navegação lateral.
 
-### Programação em Python 3
-<details>
-<summary>Detalhes</summary>
+- Padronização da interface com tema escuro e organização dos elementos.
 
-- Estruturação de funções, módulos, controle de fluxo e manipulação de arquivos.  
-- Implementação de cálculos de médias, filtragens e validações.  
-- Desenvolvimento completo de funcionalidades integradas à GUI.  
+- Motivo do nível: desenvolvi telas completas sem depender de orientação constante.
 
 </details>
 
-### Controle de Versão com Git
-<details>
-<summary>Detalhes</summary>
+### Visualização de Dados com Matplotlib — Intermediário
+<details> <summary>Detalhes</summary>
 
-- Versionamento das atualizações do projeto.  
-- Criação de commits descritivos e organizados.  
-- Manutenção de histórico limpo e estruturado.  
+- Criação de gráficos comparativos com múltiplas séries.
 
-</details>
+- Implementação de gráfico de pizza, scatter e linhas de referência.
 
-### Gerenciamento de Repositório com GitHub
-<details>
-<summary>Detalhes</summary>
+- Integração com Tkinter utilizando FigureCanvasTkAgg.
 
-- Organização do repositório remoto com versionamento contínuo.  
-- Publicação de atualizações, documentação e arquivos do projeto.  
+- Motivo do nível: implementei gráficos complexos, integrei com a GUI e personalizei visualizações com autonomia.
 
 </details>
 
-### Documentação Técnica
-<details>
-<summary>Detalhes</summary>
+### Programação em Python 3 — Intermediário
+<details> <summary>Detalhes</summary>
 
-- Produção do README da Sprint 4 com instruções completas.  
-- Organização das informações do projeto e detalhamento técnico.  
+- Estruturação de funções, módulos, controle de fluxo e manipulação de arquivos.
+
+- Implementação de cálculos de médias, filtragens e validações.
+
+- Desenvolvimento completo de funcionalidades integradas à GUI.
+
+- Motivo do nível: desenvolvi funcionalidades completas e autônomas, resolvendo problemas recorrentes do projeto.
+
+</details>
+
+### Controle de Versão com Git — Básico
+<details> <summary>Detalhes</summary>
+
+- Versionamento das atualizações do projeto.
+
+- Criação de commits descritivos e organizados.
+
+- Manutenção de histórico limpo e estruturado.
+
+- Motivo do nível: utilizo Git com segurança em fluxos simples, mas ainda não aplico estratégias avançadas.
+
+</details>
+
+### Gerenciamento de Repositório com GitHub — Básico
+<details> <summary>Detalhes</summary>
+
+- Organização do repositório remoto com versionamento contínuo.
+
+- Publicação de atualizações, documentação e arquivos do projeto.
+
+- Motivo do nível: gerencio repositórios com autonomia, mas ainda sem workflows avançados.
+
+</details>
+
+### Documentação Técnica — Intermediário
+<details> <summary>Detalhes</summary>
+
+- Produção do README da Sprint 4 com instruções completas.
+
+- Organização das informações do projeto e detalhamento técnico.
+
+- Motivo do nível: desenvolvi documentação clara, completa e com boa estrutura técnica.
 
 </details>
 
 # Soft Skills Desenvolvidas
 
-### Trabalho em Equipe
-<details>
-<summary>Detalhes</summary>
+### Trabalho em Equipe — Intermediário
+<details> <summary>Detalhes</summary>
 
-- Colaboração contínua entre os membros.  
-- Comunicação eficiente sobre responsabilidades e progresso.  
+- Colaboração contínua entre os membros.
 
-</details>
+- Comunicação eficiente sobre responsabilidades e progresso.
 
-### Comunicação Efetiva
-<details>
-<summary>Detalhes</summary>
-
-- Troca de informações via Discord e reuniões periódicas.  
-- Apresentações regulares do andamento ao cliente.  
+- Motivo do nível: participei ativamente das discussões e contribuições do time com autonomia.
 
 </details>
 
-### Organização e Planejamento
-<details>
-<summary>Detalhes</summary>
+### Comunicação Efetiva — Intermediário
+<details> <summary>Detalhes</summary>
 
-- Uso de backlog e definição clara de prioridades.  
-- Gerenciamento de prazos durante as sprints.  
+- Troca de informações via Discord e reuniões periódicas.
 
-</details>
+- Apresentações regulares do andamento ao cliente.
 
-### Autonomia
-<details>
-<summary>Detalhes</summary>
-
-- Desenvolvimento completo de telas e dashboards de forma independente.  
-- Tomada de decisões técnicas em momentos críticos.  
+- Motivo do nível: apresentei resultados, alinhei expectativas e mantive comunicação clara durante todo o projeto.
 
 </details>
 
-### Flexibilidade
-<details>
-<summary>Detalhes</summary>
+### Organização e Planejamento — Intermediário
+<details> <summary>Detalhes</summary>
 
-- Adaptação rápida a mudanças no escopo e novos requisitos.  
-- Ajustes constantes baseados no feedback do cliente.  
+- Uso de backlog e definição clara de prioridades.
 
-</details>
+- Gerenciamento de prazos durante as sprints.
 
-### Pensamento Crítico
-<details>
-<summary>Detalhes</summary>
-
-- Avaliação de soluções e refinamento contínuo da usabilidade.  
-- Identificação de falhas e melhoria de processos.  
+- Motivo do nível: planejei entregas, defini prioridades e mantive o fluxo do projeto organizado.
 
 </details>
 
-### Resolução de Problemas
-<details>
-<summary>Detalhes</summary>
+### Autonomia — Intermediário
+<details> <summary>Detalhes</summary>
 
-- Solução de inconsistências de cálculo e ajustes de layout.  
-- Tratamento de erros em dados JSON e lógica de exibição.  
+- Desenvolvimento completo de telas e dashboards de forma independente.
 
-</details>
+- Tomada de decisões técnicas em momentos críticos.
 
-### Gestão do Tempo
-<details>
-<summary>Detalhes</summary>
-
-- Organização das tarefas por sprint.  
-- Cumprimento dos prazos e priorização eficaz.  
+- Motivo do nível: atuei de forma autônoma na maior parte do desenvolvimento.
 
 </details>
 
+### Flexibilidade — Intermediário
+<details> <summary>Detalhes</summary>
+
+- Adaptação rápida a mudanças no escopo e novos requisitos.
+
+- Ajustes constantes baseados no feedback do cliente.
+
+- Motivo do nível: adaptei-me facilmente às mudanças e respondi bem às novas demandas.
+
+</details>
+
+### Pensamento Crítico — Intermediário
+<details> <summary>Detalhes</summary>
+
+- Avaliação de soluções e refinamento contínuo da usabilidade.
+
+- Identificação de falhas e melhoria de processos.
+
+- Motivo do nível: analisei fluxos, identifiquei problemas e propus soluções com regularidade.
+
+</details>
+
+### Resolução de Problemas — Intermediário
+<details> <summary>Detalhes</summary>
+
+- Solução de inconsistências de cálculo e ajustes de layout.
+
+- Tratamento de erros em dados JSON e lógica de exibição.
+
+- Motivo do nível: resolvi desafios técnicos diversos com autonomia.
+
+</details>
+
+### Gestão do Tempo — Intermediário
+<details> <summary>Detalhes</summary>
+
+- Organização das tarefas por sprint.
+
+- Cumprimento dos prazos e priorização eficaz.
+
+- Motivo do nível: gerenciei demandas e entreguei conforme os prazos estabelecidos.
+
+</details>
