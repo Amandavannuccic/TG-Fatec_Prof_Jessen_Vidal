@@ -16,6 +16,9 @@ Além disso, o sistema oferece recursos completos para professores, como o regis
 <summary>Visual</summary>
 
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/915012df-9ce7-417d-a982-b0d006fa5520" />
+
+
 </details>
 
 
