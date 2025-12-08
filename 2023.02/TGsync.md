@@ -13,15 +13,7 @@ Para solucionar os desafios do processo manual de avaliação de TCCs, o grupo [
 
 Além disso, o sistema oferece recursos completos para professores, como o registro de notas e feedbacks individualizados, acompanhamento de entregas e geração automatizada de relatórios essenciais. Entre os relatórios disponíveis, destacam-se: alunos aptos à defesa, notas consolidadas, progresso das entregas e certificados de orientação. A aplicação utiliza um banco de dados relacional MySQL para armazenamento seguro e estruturado das informações, promovendo confiabilidade e agilidade na gestão acadêmica.
 
-<details> 
-<summary>Visual</summary>
-
-
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/915012df-9ce7-417d-a982-b0d006fa5520" />
-
-
-</details>
-
 
 # Tecnologias Utilizadas
 
