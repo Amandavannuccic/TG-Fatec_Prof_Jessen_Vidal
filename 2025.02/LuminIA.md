@@ -962,7 +962,7 @@ def build_query_filter(filtro: Filtro, base_filter: Optional[Dict] = None) -> Di
 </details>
 </details>
 
-# Hard Skills Desenvolvidas
+# Hard Skills Desenvolvidas - [Tabela de Níveis](https://github.com/Amandavannuccic/TG-Fatec/blob/main/TabelaDeN%C3%ADveis/TabelaNiveis.md)
 
 ### Desenvolvimento Backend — Intermediário
 <details><summary>Detalhes</summary>
@@ -1012,9 +1012,7 @@ Apliquei técnicas relevantes de ML com sucesso, mas sem avançar para tópicos 
 
 </details>
 
----
-
-# Soft Skills Desenvolvidas
+# Soft Skills Desenvolvidas - [Tabela de Níveis](https://github.com/Amandavannuccic/TG-Fatec/blob/main/TabelaDeN%C3%ADveis/TabelaNiveis.md)
 
 ### Comunicação Técnica — Avançado
 <details> <summary>Detalhes</summary>
