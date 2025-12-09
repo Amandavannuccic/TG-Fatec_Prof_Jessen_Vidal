@@ -108,8 +108,8 @@ Ao longo da minha formação em Banco de Dados e das experiência práticas em p
 Na [Fatec São José dos Campos – Prof. Jessen Vidal](https://fatecsjc-prd.azurewebsites.net/), os projetos desenvolvidos dentro da metodologia de Aprendizagem por Projetos Integrados ([API](https://fatecsjc-prd.azurewebsites.net/aprendizagem-por-projetos-integrados)) seguem uma abordagem prática baseada em problemas reais ([Real Problem Based Learning](https://www.scielo.br/j/edur/a/hY5pBZkfjL9XvGfHn5PPyFz/)), com validação externa e uso de metodologias ágeis ([SCRUM](https://www.scrum.org/learning-series/what-is-scrum/)). Os estudantes trabalham em equipes para solucionar desafios concretos propostos por empresas ou pela comunidade, aplicando ciclos iterativos de planejamento, desenvolvimento e feedback, com entregas parciais e adaptações constantes. Durante todo o processo, os [professores](https://fatecsjc-prd.azurewebsites.net/docentes-bd) atuam como facilitadores, intermediando e monitorando as ações dos alunos, oferecendo orientação técnica e metodológica. Os projetos são validados por profissionais externos, garantindo alinhamento com as demandas do mercado, e todo o conteúdo gerado segue licenças open source, com foco exclusivo na formação acadêmica dos alunos, sem fins lucrativos ou garantias comerciais.
 
 ### 2023/1 
-- 🔗 Portfólio: [1º Semestre]()
-- 🔗 Repositório: [Insight360](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2023.01_Insight360/Insight360.md)
+- 🔗 Portfólio: [1º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2023.01_Insight360/Insight360.md)
+- 🔗 Repositório: [Insight360](https://github.com/TechHorizonBR/Insight360)
 - 🔗 Cliente: [Professor Lucas Gonçalves Nadalete](https://fatecsjc-prd.azurewebsites.net/docentes-bd)
   
 Sistema desktop desenvolvido em Python para otimizar e padronizar o processo de avaliação de desempenho, com visualização de resultados e geração de relatórios automáticos.
