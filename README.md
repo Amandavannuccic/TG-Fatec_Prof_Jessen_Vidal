@@ -116,14 +116,14 @@ Sistema desktop desenvolvido em Python para otimizar e padronizar o processo de 
 
 ### 2023/2 
 - 🔗 Portfólio: [2º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2023.02/TGsync.md)
-- 🔗 Repositório:[TGSync](https://github.com/TechHorizonBR/API_2_Sem)
-- 🔗 Cliente:[Professor Emanuel Mineda Carneiro](https://fatecsjc-prd.azurewebsites.net/docentes-bd)
+- 🔗 Repositório: [TGSync](https://github.com/TechHorizonBR/API_2_Sem)
+- 🔗 Cliente: [Professor Emanuel Mineda Carneiro](https://fatecsjc-prd.azurewebsites.net/docentes-bd)
 
 Aplicação desktop em Java desenvolvida para modernizar e agilizar o processo de avaliação de TCCs, com registro de notas, feedbacks individualizados e geração automatizada de relatórios.
 
 ### 2024/1
 - 🔗 Portfólio: [3º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2024.01/NextSchema.md)
-- 🔗 Repositório:[NextSchema](https://github.com/TechHorizonBR/API_3SEM)
+- 🔗 Repositório: [NextSchema](https://github.com/TechHorizonBR/API_3SEM)
 - 🔗 Cliente: [Dom Rock](https://www.linkedin.com/company/dom-rock/?originalSubdomain=br)
 
 Aplicação web desenvolvida para automatizar e padronizar a configuração de fontes de dados, com upload de CSV, mapeamento de campos e rastreabilidade do processo.
@@ -144,7 +144,7 @@ Aplicação integrada à plataforma Taiga para visualização de indicadores de 
 
 ### 2025/2
 - 🔗 Portfólio: [6º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2025.02/LuminIA.md)
-- 🔗 Repositório:[LuminIA](https://github.com/new-ge/LuminIA)
+- 🔗 Repositório: [LuminIA](https://github.com/new-ge/LuminIA)
 - 🔗 Cliente: [Pro4Tech](https://www.pro4tech.com.br/#como-fazemos)
 
 Sistema desenvolvido para gerenciar usuários e tickets, com integração a Machine Learning para análise de FAQ, sentimentos e métricas automáticas, apoiando a tomada de decisão.
