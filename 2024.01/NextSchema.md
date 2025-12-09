@@ -276,7 +276,7 @@ Criação de estrutura de banco de dados normalizada, seguindo boas práticas de
 </details>
 
 
-# Hard Skills Desenvolvidas
+# Hard Skills Desenvolvidas - [Tabela de Níveis](https://github.com/Amandavannuccic/TG-Fatec/blob/main/TabelaDeN%C3%ADveis/TabelaNiveis.md)
 
 ### Desenvolvimento Front-end (HTML5, CSS3, JavaScript) — Intermediário
 <details> <summary>Detalhes</summary>
@@ -341,7 +341,7 @@ Motivo do nível: produzi documentação clara e compreensível sem necessidade 
 
 </details>
 
-# Soft Skills Desenvolvidas
+# Soft Skills Desenvolvidas - [Tabela de Níveis](https://github.com/Amandavannuccic/TG-Fatec/blob/main/TabelaDeN%C3%ADveis/TabelaNiveis.md)
 
 ### Trabalho em Equipe — Intermediário
 <details> <summary>Detalhes</summary>
