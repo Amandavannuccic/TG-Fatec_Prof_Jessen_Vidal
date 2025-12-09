@@ -27,14 +27,81 @@ Todas essas experiências contribuíram de forma significativa para o meu desenv
 
 [Linkdin](https://www.linkedin.com/in/amanda-vannucci)
 
-# Meus Principais Conhecimentos
+# Conhecimentos Adquiridos ao Longo do Curso
 
-- **Gestão Financeira**: Conhecimentos em análise financeira, planejamento e controle orçamentário.
-- **Biomedicina**: Experiência em ciências biomédicas, incluindo técnicas laboratoriais e pesquisa científica.
-- **Banco de Dados**: Atualmente cursando o quarto semestre de Banco de Dados, com foco em modelagem de dados, SQL, administração de bancos de dados, além de programação em Java com desenvolvimento em Spring Boot e conhecimentos em Vue.js 3.
-- **Power BI**: Habilidade na criação e gestão de relatórios detalhados, utilizando Power BI para fornecer insights e apoiar a tomada de decisões.
-- **Compras e Processos de Negócios**: Participação nas atividades de compras no setor End-User, contribuindo para a otimização de processos.
-- **Voluntariado e Mentoria**: Envolvimento em projetos como "Programadoras da Vida" e "Projeto Despertar", capacitando pessoas com conhecimentos sobre ferramentas tecnológicas.
+Ao longo da minha formação em Banco de Dados e das experiência práticas em projetos que a [Fatec](https://fatecsjc-prd.azurewebsites.net/) me proporcionou, adquiri os seguintes conhecimentos e habilidades:
+
+### Conhecimentos Técnicos
+
+<details>
+<summary>Desenvolvimento de Software</summary>
+
+- Programação em **Python** e **Java** para aplicações desktop e web  
+- Desenvolvimento de **interfaces gráficas** com Tkinter e JavaFX  
+- Estruturação de sistemas em **camadas** (routers, services, repositories, models, utils) para maior manutenção e organização  
+
+</details>
+
+<details>
+<summary>Bancos de Dados</summary>
+
+- Modelagem, manipulação e consultas em **bancos relacionais (MySQL)**  
+- Armazenamento de dados em **JSON** para aplicações desktop  
+- Integração de banco de dados com sistemas web e desktop  
+
+</details>
+
+<details>
+<summary>Qualidade de Software e Testes (QA)</summary>
+
+- Criação, execução e documentação de **testes de software**  
+- Identificação e reporte de inconsistências  
+- Garantia da **qualidade e confiabilidade de sistemas**  
+- Colaboração com equipes de desenvolvimento para **aprimorar processos**  
+
+</details>
+
+<details>
+<summary>Desenvolvimento Web e APIs</summary>
+
+- Criação de **APIs REST** para gerenciamento de usuários e tickets  
+- Integração com **componentes de Machine Learning** para análise de FAQ, sentimentos e métricas  
+- Implementação de **autenticação e controle de acesso**  
+
+</details>
+
+<details>
+<summary>Processamento e Visualização de Dados</summary>
+
+- Visualização gráfica de resultados com **Matplotlib**  
+- Consolidação e análise de dados provenientes de **CSV e outras fontes**  
+- Geração automatizada de **relatórios e dashboards**  
+
+</details>
+
+<details>
+<summary>Metodologias e Práticas Profissionais</summary>
+
+- Experiência com **metodologias ágeis** e gestão de projetos (integração com Taiga)  
+- Trabalho em **equipes multidisciplinares** e colaboração direta com clientes  
+- Desenvolvimento de soluções voltadas para **usuário final e eficiência operacional**  
+
+</details>
+
+<details>
+<summary>Integração com Machine Learning</summary>
+
+- Aplicação de **embeddings para FAQ**  
+- Treinamento e inferência de modelos para **predição e análise de tendências**  
+
+</details>
+
+### Habilidades Complementares Desenvolvidas
+
+- Comunicação, liderança e trabalho em equipe;  
+- Análise crítica e resolução de problemas;  
+- Planejamento, organização e documentação de projetos; e  
+- Capacidade de aprender e se adaptar a novas tecnologias.  
 
 # Meus Projetos
 
