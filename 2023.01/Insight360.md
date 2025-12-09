@@ -235,7 +235,8 @@ Como PO, fui responsável por compreender as necessidades do cliente, transforma
 
 </details>
 
-# Hard Skills Desenvolvidas
+
+# Hard Skills Desenvolvidas - [Tabela de Níveis](https://github.com/Amandavannuccic/TG-Fatec/blob/main/TabelaDeN%C3%ADveis/TabelaNiveis.md)
 
 ### Manipulação de Dados (JSON) — Intermediário
 <details> <summary>Detalhes</summary>
@@ -322,7 +323,7 @@ Como PO, fui responsável por compreender as necessidades do cliente, transforma
 
 </details>
 
-# Soft Skills Desenvolvidas
+# Soft Skills Desenvolvidas - [Tabela de Níveis](https://github.com/Amandavannuccic/TG-Fatec/blob/main/TabelaDeN%C3%ADveis/TabelaNiveis.md)
 
 ### Trabalho em Equipe — Intermediário
 <details> <summary>Detalhes</summary>
