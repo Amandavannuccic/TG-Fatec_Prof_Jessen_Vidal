@@ -141,7 +141,7 @@ Aplicação integrada à plataforma Taiga para visualização de indicadores de 
 - 🔗 Portfólio: [6º Semestre](https://github.com/Amandavannuccic/TG-Fatec/blob/main/2025.02/LuminIA.md)
 - 🔗 Repositório:[LuminIA](https://github.com/new-ge/LuminIA)
 
-API desenvolvida para gerenciar usuários e tickets, com integração a Machine Learning para análise de FAQ, sentimentos e métricas automáticas, apoiando a tomada de decisão.
+Sistema desenvolvido para gerenciar usuários e tickets, com integração a Machine Learning para análise de FAQ, sentimentos e métricas automáticas, apoiando a tomada de decisão.
 
 ---
 <p align="right"><em>Eterna Aprendiz.</em></p>
