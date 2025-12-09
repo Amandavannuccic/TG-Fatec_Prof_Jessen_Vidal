@@ -1,17 +1,18 @@
-<h3> Em 2025-1 </h3>
+<h3>2025-01</h3>
+<h3>Vision</h3>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/755afbc9-cd9e-4619-a650-6d399c785e3a" width="600">
 </p>
 
 
-<h3> Desafio Proposto pelo Cliente </h3>
+# Desafio Proposto pelo Cliente
 Neste projeto, o cliente foi a empresa Youtan, especializada no desenvolvimento de softwares e aplicativos sob demanda desde 2002. Localizada no Parque Tecnológico de São José dos Campos e integrante do TIC Vale, a Youtan atua com metodologias ágeis e tecnologias modernas para entregar soluções digitais em Web, Desktop e Mobile. Além disso, oferece o SIGI, seu ERP em modelo SaaS voltado para empresas B2B de pequeno e médio porte. O desafio apresentado envolvia aprimorar a gestão de projetos, tornando-a mais eficiente, visual e transparente, com indicadores que permitissem acompanhar o andamento das tarefas em tempo real.
 
-<h3> Ferramenta Desenvolvida </h3>
+# Ferramenta Desenvolvida
 Para atender a essa necessidade, o grupo New Generation desenvolveu a VISION, uma aplicação integrada à plataforma Taiga para visualização de indicadores de projetos. A ferramenta possibilita o acompanhamento de métricas como tempo médio de finalização, distribuição de responsabilidades, uso de etiquetas e outros dados relevantes. Com isso, a VISION oferece maior clareza, transparência e suporte à tomada de decisão no gerenciamento ágil de projetos.
 
-<h3> Tecnologias Utilizadas </h3>
+# Tecnologias Utilizadas 
 
 | Categoria                      | Ferramenta/Plataforma  | Descrição                                                                    |
 |-------------------------------|-------------------------|------------------------------------------------------------------------------|
@@ -33,47 +34,188 @@ Para atender a essa necessidade, o grupo New Generation desenvolveu a VISION, um
 | **Repositório de Código**     | GitHub                  | Plataforma para hospedar, versionar e colaborar no código-fonte.            |
 
 
-<h3> Contribuições Pessoais </h3>
+# Contribuições Pessoais
 
-Durante o projeto, atuei como Scrum Master, garantindo que a equipe tivesse clareza sobre os processos, cerimônias e fluxo de trabalho do Scrum. Facilitei as reuniões e cerimônias do projeto, promovendo alinhamento entre todos os membros e apoiando a equipe na tomada de decisões colaborativas. Auxiliei na organização do trabalho, acompanhamento do progresso e remoção de impedimentos, garantindo que as entregas fossem realizadas dentro do planejamento da Sprint.
+Durante o projeto, atuei como Scrum Master garantindo organização, alinhamento e clareza nos processos ao longo das duas primeiras sprints. Facilitei as cerimônias, promovi a comunicação contínua e apoiei a equipe na tomada de decisões colaborativas. Estruturei um ambiente de trabalho mais eficiente ao centralizar informações no Microsoft Teams e, posteriormente, migrá-las para o Jira, aumentando a visibilidade, rastreabilidade e autonomia do time.
 
-Minha principal contribuição foi manter uma documentação completa, clara e acessível, permitindo que cada integrante tivesse autonomia para buscar informações sem depender de intermediários. Isso eliminou ruídos, reduziu retrabalho e fortaleceu a fluidez da comunicação dentro da equipe. Ao estruturar o conhecimento de forma organizada e transparente, garanti que todos tivessem segurança para avançar no desenvolvimento, evitando bloqueios e contribuindo para um fluxo de trabalho mais eficiente e integrado.
+Também contribuí na mediação de desafios, na redistribuição de tarefas e na remoção de impedimentos, ajudando a manter o foco no planejamento da sprint. A documentação organizada, atualizada e acessível reduziu ruídos, evitou retrabalho e deu segurança ao time para avançar no desenvolvimento. No geral, minhas ações fortaleceram a colaboração, melhoraram o fluxo de trabalho e prepararam bases sólidas para as próximas etapas do projeto.
 
-Facilitar reuniões e cerimônias Scrum
+# Contribuições como Scrum Master / Product Owner
 
+### Organização da Comunicação e Facilitação de Reuniões
 <details>
-  
-A imagem representa um exemplo real de uma das semanas de organização da equipe durante o desenvolvimento do projeto. Eu fui responsável por organizar a agenda da equipe utilizando o Microsoft Teams, ferramenta disponibilizada pela faculdade. Planejava e registrava todas as reuniões, cerimônias Scrum, alinhamentos, revisões e apresentações no calendário, garantindo que todos tivessem acesso claro e atualizado aos compromissos. Além disso, estruturava as reuniões remotas para que nenhum membro ficasse excluído em caso de ausência presencial. Essa organização contribuiu para manter a equipe alinhada, reduzir falhas de comunicação e garantir um fluxo de trabalho eficiente e colaborativo durante todo o projeto.
-  
-  <img width="1703" height="896" alt="image" src="https://github.com/user-attachments/assets/9323ba03-1b30-433c-9ce1-0b4e50618f11" />
+Fui responsável por organizar a agenda da equipe no Microsoft Teams, planejando e registrando todas as reuniões, cerimônias Scrum, alinhamentos, revisões e apresentações. Estruturei as reuniões remotas para garantir que todos os membros participassem, promovendo clareza e evitando falhas de comunicação.  
+Essa organização centralizada também funcionou como ponto único de referência para materiais, vídeos explicativos e avisos gerais, fortalecendo o fluxo de trabalho colaborativo.
 
+<img width="1703" height="896" alt="image" src="https://github.com/user-attachments/assets/9323ba03-1b30-433c-9ce1-0b4e50618f11" />
+<img width="1912" height="861" alt="image" src="https://github.com/user-attachments/assets/3c946bdf-d84b-4d92-911a-555edee23687" />
 </details>
 
-<b>Remover impedimentos e obstáculos</b>
-
+### Remoção de Impedimentos e Apoio à Equipe
 <details>
-
-Durante o projeto, meu papel como Product Owner incluiu também orientar meus colegas diante das dificuldades encontradas nas tasks atribuídas. Sempre que algum integrante relatava dúvidas ou desafios, eu os direcionava a buscar ajuda com professores específicos ou com colegas que já haviam passado por situações semelhantes; Eu buscava sempre acompanha-los nas conversas, para garantir que eu também absorvesse o aprendizado e pudesse compartilhar com o grupo, com essas ações passamos a superar os obstáculos e garantimos que a equipe pudesse avançar.
-
-O burndown apresentado ilustra bem esse processo: apesar de não ter sido perfeito, ele demonstra que, mesmo diante de tarefas complexas e desafios aparentemente impossíveis, a equipe conseguiu realizar suas entregas. Esse cenário evidencia que nosso foco não era apenas concluir as atividades, mas aprender, desenvolver habilidades e crescer como time, enfrentando cada dificuldade com proatividade e colaboração.
+Orientei a equipe diante de dificuldades técnicas ou dúvidas em tasks, direcionando membros a professores ou colegas experientes. Acompanhei as conversas para absorver e compartilhar conhecimento, garantindo aprendizado coletivo.  
+O burndown evidencia que, mesmo com desafios complexos, a equipe avançou e realizou as entregas com foco, colaboração e desenvolvimento de habilidades.
 
 <img width="1491" height="652" alt="image" src="https://github.com/user-attachments/assets/ddc9706d-bda7-484b-b9dc-ba376aa297cb" />
+<img width="1912" height="867" alt="image" src="https://github.com/user-attachments/assets/8cd3a612-93f7-4187-a3d5-0409d0b27ba2" />
+</details>
 
+### Facilitação do Fluxo de Trabalho e Planejamento das Entregas
+<details>
+Acompanhei o andamento das tasks no Kanban do Jira, ajustando o registro de atividades para uso eficaz do burndown. Contribuí para priorização das tasks e adaptação do planejamento das sprints, tornando o escopo mais realista e permitindo que a equipe trabalhasse com clareza sobre objetivos e prazos.
+
+<img width="1660" height="620" alt="image" src="https://github.com/user-attachments/assets/e3c208f3-0f36-49b9-9e0a-b88946188d87" />
+<img width="1913" height="863" alt="image" src="https://github.com/user-attachments/assets/cd3eae07-1e46-468d-809f-3b1c075739b1" />
+</details>
+
+### Gestão de Decisões Coletivas e Alinhamento do Time
+<details>
+Liderei processos de alinhamento interno, garantindo que decisões importantes fossem tomadas de forma democrática e transparente. Um exemplo foi a reunião para tratar a saída de um integrante, conduzida por votação unânime. Mantive o time informado, engajado e promovendo um ambiente de respeito, colaboração e maturidade.
+
+<img width="1912" height="862" alt="image" src="https://github.com/user-attachments/assets/9b503620-e8a7-4f75-931f-288196a623bf" />
+</details>
+
+### Suporte à Migração e Estruturação da Documentação
+<details>
+Liderei a transição da documentação do projeto do Teams para o Jira, organizando informações para melhorar rastreabilidade, visibilidade e acompanhamento. Essa migração aproximou o time das boas práticas de gestão ágil e fortaleceu o fluxo de trabalho nas sprints seguintes.
+
+<img width="1806" height="898" alt="image" src="https://github.com/user-attachments/assets/74d5d11a-ec3d-435e-b7da-4b54f073ad68" />
+</details>
+
+
+# Hard Skills Desenvolvidas
+
+### Gestão Ágil (Scrum/Kanban) — Intermediário
+
+<details> <summary>Detalhes</summary>
+
+- Conduzi cerimônias como dailys, revisões e alinhamentos;
+
+- Organizei e acompanhei o fluxo de trabalho no Kanban do Jira; e
+
+- Ajustei a forma de registrar tasks para possibilitar o uso adequado do burndown nas próximas sprints.
+
+#### Motivo do nível: 
+Trabalhei com autonomia moderada, aplicando práticas ágeis de forma consistente e contribuindo para a melhoria contínua do processo.
 
 </details>
 
-Garantir boas práticas de comunicação e documentação
+### Documentação e Registro de Processos — Intermediário
 
-Auxiliar na organização e acompanhamento do progresso
+<details> <summary>Detalhes</summary>
 
-Garantir boas práticas de comunicação e documentação
+- Realizei a migração da documentação do Teams para o Jira;
+
+- Estruturei materiais, vídeos e arquivos de apoio para facilitar consulta da equipe; e
+
+- Mantive registros claros e organizados para garantir maior rastreabilidade do projeto.
+
+#### Motivo do nível: 
+Atuei de maneira independente na organização documental, contribuindo para padronização e clareza das informações.
 
 </details>
 
+### Ferramentas de Colaboração (Microsoft Teams / Jira / Confluence) — Avançado
 
+<details> <summary>Detalhes</summary>
 
-<h3> Hard Skills </h3>
+- Estruturei o ambiente do projeto no Teams, criando canais, agendas e centralizando informações essenciais; 
 
-<h3> Soft Skills </h3>
+- Auxiliei a equipe na adaptação ao Jira, organizando tasks e orientando sobre o uso das ferramentas;  e
 
---- 
+- Usei ambas as plataformas como base para comunicação, documentação e acompanhamento de progresso.
+
+#### Motivo do nível: 
+Utilizei as ferramentas de forma estratégica, sendo referência para o time e mantendo o fluxo de trabalho integrado.
+
+</details>
+
+### Gestão de Configuração e Mudanças — Básico
+
+<details> <summary>Detalhes</summary>
+
+- Acompanhei e apoiei o processo de troca do banco de dados devido à incompatibilidade técnica; e
+
+- Entendi impactos e ajudei a manter o time alinhado durante o período de transição.
+
+#### Motivo do nível: 
+Participei das decisões, mas não atuei diretamente na parte técnica, mantendo um nível introdutório.
+
+</details>
+
+# Soft Skills Desenvolvidas
+
+### Trabalho em Equipe — Avançado
+
+<details> <summary>Detalhes</summary>
+
+- Facilitei a colaboração entre membros com diferentes níveis de conhecimento; 
+
+- Apoiei a integração de novos integrantes e adaptei a dinâmica da equipe conforme necessário; e
+
+- Criei um ambiente colaborativo por meio de organização, comunicação e suporte contínuo.
+
+#### Motivo do nível:
+Atuei como referência no time, garantindo união, alinhamento e cooperação constante.
+
+</details>
+
+### Comunicação Efetiva — Avançado
+
+<details> <summary>Detalhes</summary>
+
+- Conduzi reuniões, dailys e alinhamentos com clareza e objetividade; 
+
+- Comuniquei decisões importantes, como mudanças de tecnologia e reestruturações da equipe; e
+
+- Produzi vídeos e explicações detalhadas para facilitar o entendimento de tarefas complexas.
+
+#### Motivo do nível:
+Fui o principal ponto de comunicação do time, garantindo alinhamento e entendimento coletivo.
+
+</details>
+
+### Organização e Gestão do Tempo — Avançado
+
+<details> <summary>Detalhes</summary>
+
+- Planejei e registrei reuniões, cerimônias e compromissos no Teams; 
+
+- Estruturei o fluxo de tarefas, priorizei demandas e acompanhei o ritmo da sprint; e
+
+- Ajustei o planejamento entre as sprints conforme desafios surgiam.
+
+#### Motivo do nível:
+Antecipei problemas, mantive estrutura clara e organizei o funcionamento geral do time.
+
+</details>
+
+### Resolução de Problemas — Intermediário
+
+<details> <summary>Detalhes</summary>
+
+- Facilitei soluções para desafios técnicos e organizacionais enfrentados pelo grupo; 
+
+- Ajudei a superar dificuldades com tecnologias e diferenças de ritmo entre os integrantes; e
+
+- Mantive a produtividade mesmo diante de mudanças e obstáculos.
+
+#### Motivo do nível: 
+Resolvi problemas relevantes com boa autonomia, ainda contando com o apoio do time em situações mais complexas.
+
+</details>
+
+### Liderança Colaborativa — Avançado
+
+<details> <summary>Detalhes</summary>
+
+- Conduzi decisões importantes de forma democrática, como a votação para saída de um integrante.
+
+- Mantive o time alinhado, engajado e focado nos objetivos, mesmo em momentos de desafios.
+
+- Promovi um ambiente de respeito, participação e comunicação aberta.
+
+#### Motivo do nível:
+Liderei processos, tomei decisões alinhadas com o grupo e atuei como facilitador do desempenho coletivo.
+
+</details>
