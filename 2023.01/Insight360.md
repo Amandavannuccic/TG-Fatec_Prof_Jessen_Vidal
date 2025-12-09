@@ -6,7 +6,7 @@
 
 # Desafio Proposto pelo Cliente 
   
-Neste desafio, o cliente foi o [Professor Lucas Nadalete](https://fatecsjc-prd.azurewebsites.net/docentes-bd), que nos apresentou a necessidade de substituir o processo manual de avaliação de desempenho. Esse processo enfrentava diversas limitações, como a dificuldade na consolidação dos dados em planilhas desconectadas, a ausência de padronização nos critérios de avaliação, a lentidão decorrente da burocracia envolvida e a pouca clareza na visualização dos resultados.
+Neste desafio, o cliente foi o [Professor Lucas Gonçalves Nadalete](https://fatecsjc-prd.azurewebsites.net/docentes-bd), que nos apresentou a necessidade de substituir o processo manual de avaliação de desempenho. Esse processo enfrentava diversas limitações, como a dificuldade na consolidação dos dados em planilhas desconectadas, a ausência de padronização nos critérios de avaliação, a lentidão decorrente da burocracia envolvida e a pouca clareza na visualização dos resultados.
 
 
 # Ferramenta Desenvolvida
