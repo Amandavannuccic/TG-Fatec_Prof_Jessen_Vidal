@@ -13,12 +13,6 @@ Para atender a essa demanda, o [grupo New Generation](https://github.com/new-ge)
 
 Com arquitetura em camadas — incluindo routers, services, repositories, models, ml e utils — e persistência estruturada na camada de banco de dados, a API garante organização, escalabilidade e facilidade de manutenção, apoiando tomadas de decisão de forma mais eficiente e inteligente.
 
-Se quiser, posso criar uma versão reduzida, uma versão para slide ou uma versão ainda mais formal.
-
-Você está usando o nosso modelo básico.
-Para acessar mais inteligência, crie uma conta ou entre.
-Entrar
-Cadastre-se gratu
 
  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/218dbbd0-f196-4568-8016-a094545e1f14" />
 
