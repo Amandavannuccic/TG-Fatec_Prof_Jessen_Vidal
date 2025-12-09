@@ -968,20 +968,114 @@ def build_query_filter(filtro: Filtro, base_filter: Optional[Dict] = None) -> Di
 
 # Hard Skills Desenvolvidas
 
-- **Programação em Python** — Desenvolvimento e organização de um backend modular, manipulação de pacotes e scripts de ML.
-- **APIs REST** — Projeto e implementação de endpoints, autenticação e versionamento de rotas.
-- **Banco de Dados NoSQL (MongoDB)** — Modelagem de collections, queries e otimizações para relatórios.
-- **Machine Learning Aplicado** — Uso de embeddings (SentenceTransformers) para inferência de FAQ, processamento de vetores e pipelines de inferência.
-- **Estrutura em Camadas** — Separação clara entre `routers`, `services`, `repositories`, `models` e `utils` para melhor manutenção.
-- **Controle de Versão (Git)** — Branching, commits e colaboração em equipe.
+### Desenvolvimento Backend — Intermediário
+<details><summary>Detalhes</summary>
 
-Soft Skills Desenvolvidas
+- Estruturei uma API completa utilizando FastAPI, arquitetura em camadas e boas práticas de organização;
+- Implementei autenticação JWT, controle de acesso, validações e logs estruturados;
+- Organizei rotas, serviços e repositórios garantindo manutenibilidade e escalabilidade.
 
-- **Comunicação Técnica** — Documentação e definição de contratos entre camadas (ex.: payloads JSON, respostas de endpoints).
-- **Trabalho Colaborativo** — Coordenação com colegas na divisão de responsabilidades e integração das peças do sistema.
-- **Organização e Planejamento** — Priorização de entregas, definição de responsabilidades por módulo e manutenção do repositório.
-- **Resolução de Problemas** — Depuração de integrações entre banco, API e módulos de ML.
+#### **Motivo do nível:**  
+Atuei com autonomia e domínio técnico nas principais partes do backend, entregando funcionalidades críticas com qualidade e consistência.
 
+</details>
 
+### Banco de Dados NoSQL (MongoDB) — Intermediário
+<details><summary>Detalhes</summary>
 
+- Modelei collections, queries e pipelines de agregação avançados;
+- Realizei persistência, atualização e consultas otimizadas para relatórios;
+- Trabalhei com filtros dinâmicos, manipulação de datas e projeções.
 
+#### **Motivo do nível:**  
+Dominei o uso de agregações e CRUDs completos, mas ainda não explorei temas avançados como indexação e tunning de performance profunda.
+
+</details>
+
+### APIs REST & Arquitetura em Camadas — Intermediário
+<details><summary>Detalhes</summary>
+
+- Construí múltiplos endpoints robustos com validação, responses padronizadas e segurança;
+- Segui boas práticas de separação de responsabilidades: routers, services, repositories, models e utils;
+- Documentei e organizei a API favorecendo entendimento e manutenção.
+
+#### **Motivo do nível:**  
+Fui responsável pela criação e organização de toda a estrutura da API, demonstrando domínio do padrão.
+
+</details>
+
+### Machine Learning Aplicado — Intermediário
+<details><summary>Detalhes</summary>
+
+- Integrei embeddings semânticos (SentenceTransformers) para inferência de FAQ;
+- Implementei Similaridade de Cosseno, pré-processamento de texto e caching de embeddings;
+- Realizei treinamento com modelos base e pipelines de inferência.
+
+#### **Motivo do nível:**  
+Apliquei técnicas relevantes de ML com sucesso, mas sem avançar para tópicos mais profundos como fine-tuning avançado, avaliação estatística ou deploy de modelos.
+
+</details>
+
+---
+
+# Soft Skills Desenvolvidas
+
+### Comunicação Técnica — Avançado
+<details> <summary>Detalhes</summary>
+
+- Documentei rotas, modelos e camadas da API;
+- Facilitei alinhamentos técnicos sobre arquitetura, requisitos e integrações;
+- Expliquei decisões e fluxos complexos de forma clara para a equipe.
+
+#### Motivo do nível:
+Comuniquei conceitos técnicos complexos com clareza e segurança, sendo referência na troca de informações.
+
+</details>
+
+### Resolução de Problemas — Intermediário
+<details> <summary>Detalhes</summary>
+
+- Corrigi inconsistências entre as camadas (banco, API e ML);
+- Depurei erros em pipelines, filtros e validações;
+- Ajustei soluções rapidamente quando surgiam desafios durante o desenvolvimento.
+
+#### Motivo do nível: 
+Resolvi problemas relevantes com boa autonomia, ainda dependendo de apoio em casos muito avançados de arquitetura ou ML.
+
+</details>
+
+### Organização e Planejamento — Avançado
+<details> <summary>Detalhes</summary>
+
+- Estruturei tarefas e prioridades do backend;
+- Mantive organização dos módulos, garantindo clareza para contribuições futuras;
+- Planejei processos de integração, testes e entrega.
+
+#### Motivo do nível:
+Atuei de forma antecipada, organizada e consistente, garantindo fluidez no desenvolvimento do backend.
+
+</details>
+
+### Pensamento Analítico — Intermediário
+<details> <summary>Detalhes</summary>
+
+- Analisei cenários para definir a melhor abordagem técnica;
+- Conectei dados, lógica e fluxo de operações para gerar relatórios e análises confiáveis;
+- Avaliei impactos de decisões na arquitetura.
+
+#### Motivo do nível:
+Apresentei boa capacidade de análise, ainda evoluindo para níveis de antecipação estratégica mais profundos.
+
+</details>
+
+### Autonomia e Responsabilidade — Avançado
+<details> <summary>Detalhes</summary>
+
+- Fui responsável por uma parte crítica do sistema: autenticação, segurança, análises e ML;
+- Trabalhei de forma independente, organizando e entregando módulos completos;
+- Mantive consistência e confiabilidade nos commits e entregas.
+
+#### Motivo do nível:
+Exerci autonomia com segurança, lidando com funcionalidades essenciais do projeto de forma responsável.
+
+</details>
