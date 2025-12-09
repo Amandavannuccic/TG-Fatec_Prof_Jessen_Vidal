@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d5a62628-186e-4c64-837c-ea3bdf7af75e" alt="Foto de perfil" width="100" height="100" style="border-radius:50%;" />
+  <img src="https://github.com/user-attachments/assets/d5a62628-186e-4c64-837c-ea3bdf7af75e" alt="Foto de perfil" width="300" height="300" style="border-radius:50%;" />
 </p>
 
 <h1 align="center">Amanda Vannucci</h1>
@@ -142,4 +142,9 @@ Aplicação integrada à plataforma Taiga para visualização de indicadores de 
 - 🔗 Repositório:[LuminIA](https://github.com/new-ge/LuminIA)
 
 API desenvolvida para gerenciar usuários e tickets, com integração a Machine Learning para análise de FAQ, sentimentos e métricas automáticas, apoiando a tomada de decisão.
+
+---
+<p align="right"><em>Eterna Aprendiz.</em></p>
+<p align="right"><em>Transformando conhecimento em soluções de valor.</em></p>
+
 
