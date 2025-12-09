@@ -9,7 +9,7 @@ Neste projeto o cliente foi a [Pro4Tech](https://www.pro4tech.com.br/#como-fazem
 
 # Ferramenta Desenvolvida
 
-Para atender a essa demanda, o [grupo New Generation desenvolveu](https://github.com/new-ge)  a ferramenta [LuminIA](https://github.com/new-ge/LuminIA) uma API backend robusta, responsável por gerenciar usuários e tickets, além de consolidar métricas essenciais para análise. A solução oferece endpoints completos de criação, consulta, atualização e exclusão, processamento de métricas por períodos customizados e integração com modelos de Machine Learning para inferência de FAQ e análise de tendências.
+Para atender a essa demanda, o [grupo New Generation](https://github.com/new-ge) desenvolveu a ferramenta [LuminIA](https://github.com/new-ge/LuminIA) uma API backend robusta, responsável por gerenciar usuários e tickets, além de consolidar métricas essenciais para análise. A solução oferece endpoints completos de criação, consulta, atualização e exclusão, processamento de métricas por períodos customizados e integração com modelos de Machine Learning para inferência de FAQ e análise de tendências.
 
 Com arquitetura em camadas — incluindo routers, services, repositories, models, ml e utils — e persistência estruturada na camada de banco de dados, a API garante organização, escalabilidade e facilidade de manutenção, apoiando tomadas de decisão de forma mais eficiente e inteligente.
 
