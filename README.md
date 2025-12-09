@@ -36,7 +36,7 @@ Ao longo da minha formação em Banco de Dados e das experiência práticas em p
 <details>
 <summary>Desenvolvimento de Software</summary>
 
-- Programação em **Python** e **Java** para aplicações desktop e web  
+- Programação em **Java**, **Python** e **C** para aplicações desktop e web  
 - Desenvolvimento de **interfaces gráficas** com Tkinter e JavaFX  
 - Estruturação de sistemas em **camadas** (routers, services, repositories, models, utils) para maior manutenção e organização  
 
